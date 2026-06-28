@@ -121,13 +121,13 @@ Smart-Cloud-Bus-Pass-System
 ![Home Page](home.png)
 
 ### ✅ Registration Successful
-![Registration Successful](success.png)
+![Registration Successful](registersuccess.png)
 
 ### 📊 Dashboard
 ![Dashboard](dashboard.png)
 
 ### 🚌 Smart Bus Pass
-![Smart Bus Pass](pass.png)
+![Smart Bus Pass](buspass.png)
 
 ### 👨‍💼 Admin Dashboard
 ![Admin Dashboard](admin.png)
