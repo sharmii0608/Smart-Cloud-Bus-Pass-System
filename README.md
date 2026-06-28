@@ -121,7 +121,7 @@ Smart-Cloud-Bus-Pass-System
 ![Home Page](home.png)
 
 ### ✅ Registration Successful
-![Registration Successful](success.png)
+![Registration Successful](register.png)
 
 ### 📊 Dashboard
 ![Dashboard](dashboard.png)
