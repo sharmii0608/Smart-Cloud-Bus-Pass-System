@@ -115,15 +115,22 @@ Smart-Cloud-Bus-Pass-System
 
 ## 📸 Project Screens
 
-* Home Page
-* Registration Page
-* Login Page
-* User Dashboard
-* Bus Pass Booking
-* QR Code Pass
-* Booking History
-* Profile Page
-* Admin Dashboard
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+![Home Page](home.png)
+
+### ✅ Registration Successful
+![Registration Successful](success.png)
+
+### 📊 Dashboard
+![Dashboard](dashboard.png)
+
+### 🚌 Smart Bus Pass
+![Smart Bus Pass](pass.png)
+
+### 👨‍💼 Admin Dashboard
+![Admin Dashboard](admin.png)
 
 ---
 
