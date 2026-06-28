@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Bus Pass</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body{
+            background: linear-gradient(to right,#1e3c72,#2a5298);
+            font-family: Arial, sans-serif;
+        }
+
+        .container{
+            width: 400px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            text-align: center;
+            color: #1e3c72;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+        }
+
+        label{
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        input, select{
+            padding: 12px;
+            margin-top: 5px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button{
+            margin-top: 20px;
+            padding: 12px;
+            background: #1e3c72;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background: #2a5298;
+        }
+
+        a{
+            display: block;
+            text-align: center;
+            margin-top: 15px;
+            text-decoration: none;
+            color: #1e3c72;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚌 Book Bus Pass</h1>
+
+    <form action="/book" method="POST">
+
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Enter your name" required>
+
+        <label>Source</label>
+        <input type="text" name="source" placeholder="Enter source" required>
+
+        <label>Destination</label>
+        <input type="text" name="destination" placeholder="Enter destination" required>
+
+        <label>Duration</label>
+        <select name="duration">
+            <option value="Daily">Daily</option>
+            <option value="Weekly">Weekly</option>
+            <option value="Monthly">Monthly</option>
+        </select>
+
+        <button type="submit">Book Pass</button>
+
+    </form>
+
+    <a href="/history">📜 View Booking History</a>
+
+</div>
+
+</body>
+</html>

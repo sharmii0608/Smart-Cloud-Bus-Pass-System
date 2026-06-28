@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Failed</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="card shadow p-5 text-center mx-auto" style="max-width:500px;">
+        <h1 style="color:red;">❌ Login Failed</h1>
+        <h3>Invalid Email or Password</h3>
+        <p>Please check your credentials and try again.</p>
+
+        <a href="/login" class="btn btn-primary">
+            Back to Login
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
