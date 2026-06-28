@@ -113,21 +113,19 @@ Smart-Cloud-Bus-Pass-System
 
 ---
 
-## 📸 Project Screens
-
-## 📸 Project Screenshots
+### ## 📸 Project Screenshots
 
 ### 🏠 Home Page
 ![Home Page](home.png)
 
-### ✅ Registration Successful
-![Registration Successful](register success.png)
+### 📝 Registration Page
+![Registration Page](register.png)
 
 ### 📊 Dashboard
 ![Dashboard](dashboard.png)
 
 ### 🚌 Smart Bus Pass
-![Smart Bus Pass](buspass.png)
+![Smart Bus Pass](bookpass.png)
 
 ### 👨‍💼 Admin Dashboard
 ![Admin Dashboard](admin.png)
